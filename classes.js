@@ -170,7 +170,7 @@ class Boundary
     }  
         draw()
         {
-            cont.fillStyle= 'rgba(0,0,255,0.2)'
+            cont.fillStyle= 'rgba(0,0,255,0)'
             cont.fillRect(this.position.x,this.position.y,this.width,this.height)
         }
 }
